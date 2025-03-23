@@ -1,0 +1,140 @@
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+Color=56,56,56
+ColorAmount=0
+ColorEffect=0
+ContrastAmount=0.65000000000000002
+ContrastEffect=1
+Enable=
+IntensityAmount=0.10000000000000001
+IntensityEffect=2
+
+[ColorEffects:Inactive]
+ChangeSelectionColor=true
+Color=112,111,110
+ColorAmount=0.025000000000000001
+ColorEffect=2
+ContrastAmount=0.10000000000000001
+ContrastEffect=2
+Enable=true
+IntensityAmount=0
+IntensityEffect=0
+
+[Colors:Button]
+BackgroundAlternate=60,56,54
+BackgroundNormal=40,40,40
+DecorationFocus=104,157,106
+DecorationHover=131,165,152
+ForegroundActive=142,192,124
+ForegroundInactive=55,115,117
+ForegroundLink=184,187,38
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=235,219,178
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[Colors:Selection]
+BackgroundAlternate=142,192,124
+BackgroundNormal=104,157,106
+DecorationFocus=104,157,106
+DecorationHover=131,165,152
+ForegroundActive=252,252,252
+ForegroundInactive=235,219,178
+ForegroundLink=253,188,75
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=235,219,178
+ForegroundPositive=39,174,96
+ForegroundVisited=189,195,199
+
+[Colors:Tooltip]
+BackgroundAlternate=60,56,54
+BackgroundNormal=40,40,40
+DecorationFocus=104,157,106
+DecorationHover=131,165,152
+ForegroundActive=184,187,38
+ForegroundInactive=55,115,117
+ForegroundLink=142,192,124
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=235,219,178
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[Colors:View]
+BackgroundAlternate=60,56,54
+BackgroundNormal=40,40,40
+DecorationFocus=104,157,106
+DecorationHover=131,165,152
+ForegroundActive=184,187,38
+ForegroundInactive=55,115,117
+ForegroundLink=142,192,124
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=235,219,178
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[Colors:Window]
+BackgroundAlternate=60,56,54
+BackgroundNormal=40,40,40
+DecorationFocus=104,157,106
+DecorationHover=131,165,152
+ForegroundActive=184,187,38
+ForegroundInactive=55,115,117
+ForegroundLink=142,192,124
+ForegroundNegative=218,68,83
+ForegroundNeutral=246,116,0
+ForegroundNormal=235,219,178
+ForegroundPositive=39,174,96
+ForegroundVisited=127,140,141
+
+[DirSelect Dialog]
+DirSelectDialog Size=1671,1090
+History Items[$e]=file:$HOME/Code/Kunj_Website,file:$HOME/Code/LCLib,file:$HOME/Code/csm,file:$HOME/Code/Grade_Analysis,file:$HOME/Code/Weather_Viz,file:$HOME/Code/Weather_Viz,file:$HOME/Code/Weather_Viz,file:$HOME/Downloads,file:$HOME/Code/Kunj_Website,file:$HOME/Code/Grade_Analysis,file:$HOME/Code/zed,file:$HOME/Code/DataScience-Club/Credit-Risk-Model,file:$HOME/Code/Kunj_Website,file:$HOME/Code/TestZed_IPYNB,file:$HOME/ASU/Semester_Folders/Fall-2024,file:$HOME/ASU/Semester_Folders/Fall-2024/DAT-494/game_env,file:$HOME/Code/Kunj_Website,file:$HOME/ASU/Semester_Folders/Fall-2024/DAT-494,file:$HOME/Code/Kunj_Website,file:$HOME/Code/datazip,file:$HOME/Code/zed,file:$HOME/Code/Kunj-s-Portfolio-Website,file:$HOME/Code,file:$HOME/Code/Astro_Website,file:$HOME/Code/Discord-CSS-Themes/Gruvbox-Dark,file:$HOME/Code/Discord-CSS-Themes,file:$HOME/Code/Discord-CSS-Themes,file:$HOME/Code,file:$HOME/Code/Zed
+
+[General]
+ColorScheme=GruvboxColors
+ColorSchemeHash=68f7da041112b660ac4e6911cf4bf8a7b361feda
+TerminalApplication=guake
+TerminalService=guake.desktop
+
+[Icons]
+Theme=Gruvbox
+
+[KDE]
+LookAndFeelPackage=Sweet-Ambar-Blue
+
+[KFileDialog Settings]
+Allow Expansion=false
+Automatically select filename extension=true
+Breadcrumb Navigation=true
+Decoration position=2
+LocationCombo Completionmode=5
+PathCombo Completionmode=5
+Preview Width=429
+Show Bookmarks=true
+Show Full Path=false
+Show Inline Previews=true
+Show Preview=true
+Show Speedbar=true
+Show hidden files=true
+Sort by=Date
+Sort directories first=true
+Sort hidden files last=false
+Sort reversed=false
+Speedbar Width=140
+View Style=Simple
+
+[KScreen]
+ScaleFactor=1.5
+ScreenScaleFactors=eDP-1=1.5;DP-1=1.5;DP-2=1.5;DP-3=1.5;DP-4=1.5;
+
+[WM]
+activeBackground=39,39,39
+activeBlend=235,219,178
+activeForeground=235,219,178
+inactiveBackground=40,40,40
+inactiveBlend=60,56,54
+inactiveForeground=204,190,155
