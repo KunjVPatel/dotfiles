@@ -1,4 +1,4 @@
-## Welcome to the my dotfiles
+## Welcome to my dotfiles
 
 These are my personal dotfiles, built for daily usage on OpenSUSE Tumbleweed with a focus on using KDE Plasma.
 
