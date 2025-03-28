@@ -9,13 +9,11 @@ These are my personal dotfiles, built for daily usage on OpenSUSE Tumbleweed wit
 | Component       | Tool               |
 |----------------|--------------------|
 | OS             | OpenSUSE Tumbleweed |
-| Laptop         | Framework 13       |
 | Shell          | Zsh + Zinit        |
 | Editor         | Neovim, Zed        |
 | Terminal       | Guake              |
 | DE             | KDE Plasma         |
 | Theme          | Gruvbox + Breeze   |
-| Font           | JetBrains Mono     |
 
 ---
 
