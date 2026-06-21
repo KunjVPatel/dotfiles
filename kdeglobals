@@ -91,14 +91,21 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [DirSelect Dialog]
-DirSelectDialog Size=1671,1090
-History Items[$e]=file:$HOME/Code/Kunj_Website,file:$HOME/Code/LCLib,file:$HOME/Code/csm,file:$HOME/Code/Grade_Analysis,file:$HOME/Code/Weather_Viz,file:$HOME/Code/Weather_Viz,file:$HOME/Code/Weather_Viz,file:$HOME/Downloads,file:$HOME/Code/Kunj_Website,file:$HOME/Code/Grade_Analysis,file:$HOME/Code/zed,file:$HOME/Code/DataScience-Club/Credit-Risk-Model,file:$HOME/Code/Kunj_Website,file:$HOME/Code/TestZed_IPYNB,file:$HOME/ASU/Semester_Folders/Fall-2024,file:$HOME/ASU/Semester_Folders/Fall-2024/DAT-494/game_env,file:$HOME/Code/Kunj_Website,file:$HOME/ASU/Semester_Folders/Fall-2024/DAT-494,file:$HOME/Code/Kunj_Website,file:$HOME/Code/datazip,file:$HOME/Code/zed,file:$HOME/Code/Kunj-s-Portfolio-Website,file:$HOME/Code,file:$HOME/Code/Astro_Website,file:$HOME/Code/Discord-CSS-Themes/Gruvbox-Dark,file:$HOME/Code/Discord-CSS-Themes,file:$HOME/Code/Discord-CSS-Themes,file:$HOME/Code,file:$HOME/Code/Zed
+DirSelectDialog Size=1072,786
+History Items[$e]=file:$HOME/Desktop,file:$HOME/Desktop,file:$HOME/Desktop,file:$HOME/code/personal/kunj-portfolio-website,file:$HOME/Code/VBA,file:$HOME/R,file:$HOME/Code/Math_Plots,file:$HOME/Code/datahandling,file:$HOME/Code/csm,file:$HOME/Code/ML,file:$HOME/Code,file:$HOME/Code,file:$HOME/Code,file:$HOME/Code/Kunj_Website,file:$HOME/Code/LCLib,file:$HOME/Code/csm,file:$HOME/Code/Grade_Analysis,file:$HOME/Code/Weather_Viz,file:$HOME/Code/Weather_Viz,file:$HOME/Code/Weather_Viz,file:$HOME/Downloads,file:$HOME/Code/Kunj_Website,file:$HOME/Code/Grade_Analysis,file:$HOME/Code/zed,file:$HOME/Code/DataScience-Club/Credit-Risk-Model,file:$HOME/Code/Kunj_Website,file:$HOME/Code/TestZed_IPYNB,file:$HOME/ASU/Semester_Folders/Fall-2024,file:$HOME/ASU/Semester_Folders/Fall-2024/DAT-494/game_env,file:$HOME/Code/Kunj_Website,file:$HOME/ASU/Semester_Folders/Fall-2024/DAT-494,file:$HOME/Code/Kunj_Website,file:$HOME/Code/datazip,file:$HOME/Code/zed,file:$HOME/Code/Kunj-s-Portfolio-Website,file:$HOME/Code,file:$HOME/Code/Astro_Website,file:$HOME/Code/Discord-CSS-Themes/Gruvbox-Dark,file:$HOME/Code/Discord-CSS-Themes,file:$HOME/Code/Discord-CSS-Themes,file:$HOME/Code,file:$HOME/Code/Zed
 
 [General]
 ColorScheme=GruvboxColors
 ColorSchemeHash=68f7da041112b660ac4e6911cf4bf8a7b361feda
 TerminalApplication=guake
 TerminalService=guake.desktop
+XftHintStyle=hintslight
+XftSubPixel=rgb
+fixed=Hack,10,-1,5,50,0,0,0,0,0
+font=Hack,10,-1,5,50,0,0,0,0,0
+menuFont=Hack,10,-1,5,50,0,0,0,0,0
+smallestReadableFont=Hack,8,-1,5,50,0,0,0,0,0
+toolBarFont=Hack,10,-1,5,50,0,0,0,0,0
 
 [Icons]
 Theme=Gruvbox
@@ -113,19 +120,19 @@ Breadcrumb Navigation=true
 Decoration position=2
 LocationCombo Completionmode=5
 PathCombo Completionmode=5
-Preview Width=429
+Preview Width=256
 Show Bookmarks=true
 Show Full Path=false
 Show Inline Previews=true
 Show Preview=true
 Show Speedbar=true
-Show hidden files=true
+Show hidden files=false
 Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
-Sort reversed=false
+Sort reversed=true
 Speedbar Width=140
-View Style=Simple
+View Style=Detail
 
 [KScreen]
 ScaleFactor=1.5
@@ -134,6 +141,7 @@ ScreenScaleFactors=eDP-1=1.5;DP-1=1.5;DP-2=1.5;DP-3=1.5;DP-4=1.5;
 [WM]
 activeBackground=39,39,39
 activeBlend=235,219,178
+activeFont=Hack,10,-1,5,50,0,0,0,0,0
 activeForeground=235,219,178
 inactiveBackground=40,40,40
 inactiveBlend=60,56,54

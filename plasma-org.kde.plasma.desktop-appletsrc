@@ -4,54 +4,6 @@ RightButton;NoModifier=org.kde.contextmenu
 [ActionPlugins][1]
 RightButton;NoModifier=org.kde.contextmenu
 
-[Containments][1]
-ItemGeometries-1504x1003=Applet-26:16,0,352,288,0;
-ItemGeometries-1671x1114=Applet-26:16,16,352,272,0;Applet-27:16,288,352,816,0;
-ItemGeometries-2256x1504=
-ItemGeometriesHorizontal=Applet-26:16,16,352,272,0;Applet-27:16,288,352,816,0;
-activityId=c2569405-0f74-4660-baf9-89b71e5dcb74
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.plasma.folder
-wallpaperplugin=org.kde.image
-
-[Containments][1][Applets][26]
-immutability=1
-plugin=org.kde.plasma.systemmonitor.cpu
-
-[Containments][1][Applets][26][Configuration]
-CurrentPreset=org.kde.plasma.systemmonitor
-
-[Containments][1][Applets][26][Configuration][Appearance]
-chartFace=org.kde.ksysguard.piechart
-title=Total CPU Use
-
-[Containments][1][Applets][26][Configuration][SensorColors]
-cpu/all/usage=104,157,106
-
-[Containments][1][Applets][26][Configuration][Sensors]
-highPrioritySensorIds=["cpu/all/usage"]
-lowPrioritySensorIds=["cpu/all/cpuCount","cpu/all/coreCount"]
-totalSensors=["cpu/all/usage"]
-
-[Containments][1][Applets][27]
-immutability=1
-plugin=ChatQT-Plasmoid
-
-[Containments][1][ConfigDialog]
-DialogHeight=540
-DialogWidth=719
-
-[Containments][1][General]
-positions={"1504x1003":[],"1671x1114":[],"2256x1504":[]}
-
-[Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/dark/Pictures/Wallpapers/space-shuttle.png
-PreviewImage=/home/dark/Pictures/Wallpapers/space-shuttle.png
-SlidePaths=/home/dark/.local/share/wallpapers/,/usr/share/wallpapers/
-
 [Containments][2]
 activityId=
 formfactor=2
@@ -67,7 +19,7 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][19][Configuration]
 PreloadWeight=100
-popupHeight=450
+popupHeight=600
 popupWidth=560
 
 [Containments][2][Applets][19][Configuration][Appearance]
@@ -87,8 +39,8 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=511
-popupWidth=651
+popupHeight=614
+popupWidth=817
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
@@ -107,7 +59,7 @@ DialogHeight=539
 DialogWidth=720
 
 [Containments][2][Applets][5][Configuration][General]
-launchers=applications:discord.desktop,applications:zed.desktop,applications:systemsettings.desktop,preferred://browser,applications:guake.desktop,preferred://filemanager
+launchers=applications:discord.desktop,applications:systemsettings.desktop,applications:guake.desktop,preferred://filemanager,applications:code.desktop,applications:rstudio.desktop,applications:firefox.desktop
 
 [Containments][2][Applets][6]
 immutability=1
@@ -121,8 +73,83 @@ plugin=org.kde.plasma.systemtray
 PreloadWeight=100
 SystrayContainmentId=8
 
+[Containments][2][ConfigDialog]
+DialogHeight=100
+DialogWidth=2256
+
 [Containments][2][General]
 AppletOrder=3;4;5;6;7;19;20
+
+[Containments][29]
+ItemGeometries-1080x1920=
+ItemGeometries-1920x1080=
+ItemGeometries-2256x1504=
+ItemGeometriesHorizontal=
+ItemGeometriesVertical=
+activityId=301f7436-339c-4579-841e-ada779f2aede
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][29][ConfigDialog]
+DialogHeight=922
+DialogWidth=1496
+
+[Containments][29][General]
+ToolBoxButtonState=topcenter
+ToolBoxButtonX=477
+positions={"2256x1504":[]}
+sortMode=-1
+url=file:///home/dark/Desktop
+
+[Containments][29][Wallpaper][org.kde.image][General]
+Image=file:///home/dark/pictures/wallpapers/wallpaper_rage.png
+SlidePaths=/home/dark/.local/share/wallpapers/,/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
+
+[Containments][32]
+activityId=301f7436-339c-4579-841e-ada779f2aede
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][32][ConfigDialog]
+DialogHeight=1890
+DialogWidth=1080
+
+[Containments][32][General]
+positions={"1080x1920":[]}
+url=file:///home/dark/Desktop
+
+[Containments][32][Wallpaper][org.kde.image][General]
+Image=file:///home/dark/pictures/wallpapers/wallpaper_smile.png
+SlidePaths=/home/dark/.local/share/wallpapers/,/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
+
+[Containments][34]
+activityId=301f7436-339c-4579-841e-ada779f2aede
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][34][ConfigDialog]
+DialogHeight=720
+DialogWidth=960
+
+[Containments][34][General]
+positions={"1920x1080":[]}
+url=file:///home/dark/Desktop
+
+[Containments][34][Wallpaper][org.kde.image][General]
+Image=file:///home/dark/pictures/wallpapers/wallpaper_rocket.png
+SlidePaths=/home/dark/.local/share/wallpapers/,/usr/share/plasma/wallpapers/,/usr/share/wallpapers/
 
 [Containments][8]
 activityId=
@@ -131,8 +158,8 @@ immutability=1
 lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
-popupHeight=448
-popupWidth=448
+popupHeight=576
+popupWidth=576
 wallpaperplugin=org.kde.image
 
 [Containments][8][Applets][10]
@@ -176,7 +203,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][16][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][8][Applets][17]
 immutability=1
@@ -191,7 +218,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][21][Configuration]
-PreloadWeight=70
+PreloadWeight=85
 
 [Containments][8][Applets][22]
 immutability=1
@@ -215,7 +242,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][24][Configuration]
-PreloadWeight=5
+PreloadWeight=10
 
 [Containments][8][Applets][24][Configuration][General]
 showPercentage=true
@@ -227,15 +254,23 @@ plugin=org.kde.plasma.mediacontroller
 [Containments][8][Applets][25][Configuration]
 PreloadWeight=0
 
+[Containments][8][Applets][28]
+immutability=1
+plugin=org.kde.plasma.vault
+
+[Containments][8][Applets][30]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
 [Containments][8][Applets][9]
 immutability=1
 plugin=org.kde.plasma.printmanager
 
 [Containments][8][General]
-extraItems=org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator
+extraItems=org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.kupapplet,org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault
 iconSize=1
-knownItems=org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator
+knownItems=org.kde.plasma.printmanager,org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.kscreen,org.kde.plasma.bluetooth,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.battery,org.kde.plasma.keyboardindicator,org.kde.kupapplet,org.kde.plasma.nightcolorcontrol,org.kde.plasma.vault
 
 [ScreenMapping]
-itemsOnDisabledScreens=
+itemsOnDisabledScreens=0,301f7436-339c-4579-841e-ada779f2aede,13,desktop:/dotfiles,desktop:/Downloads,desktop:/apps,desktop:/home-cleanup,desktop:/onyx_data,desktop:/documents,desktop:/university-files,desktop:/pictures,desktop:/Desktop,desktop:/code,desktop:/R,desktop:/videos,desktop:/snap
 screenMapping=
